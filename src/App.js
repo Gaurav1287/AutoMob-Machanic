@@ -23,6 +23,10 @@ function Layout() {
                      location.pathname.includes("history") || 
                      location.pathname === "/user-services";
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
   return (
     <>
       {isDashboard ? <DashboardNavbar /> : <Navbar />}
@@ -57,4 +61,8 @@ function App() {
   );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> main
