@@ -53,7 +53,7 @@ const Navbar = () => {
         <li><a href="#home" onClick={(e) => handleScroll(e, "home")}>Home</a></li>
         <li><a href="#about" onClick={(e) => handleScroll(e, "about")}>About</a></li>
         <li><a href="#service" onClick={(e) => handleScroll(e, "service")}>Services</a></li>
-        <li><a href="#contact" onClick={(e) => handleScroll(e, "contact")}>Contact</a></li>
+        <li><a href="#contact" onClick={(e) => handleScroll(e, "contact")}>Contacts</a></li>
 
         {!isLoggedIn ? (
           <>
